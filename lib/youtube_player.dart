@@ -1172,7 +1172,7 @@ class _YoutubePlayerState extends State<YoutubePlayer>
   Future<dynamic> _pushFullScreenWidget(BuildContext context,
       [bool triggeredByUser = true]) async {
     final TransitionRoute<Null> route = PageRouteBuilder<Null>(
-      settings: RouteSettings(isInitialRoute: false),
+      settings: RouteSettings(),
       pageBuilder: _fullScreenRoutePageBuilder,
     );
 
